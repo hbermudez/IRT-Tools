@@ -10,7 +10,7 @@ The code is lacking of some comments and probably this functionality could be ac
 Current Features:
 - Ability to extract emails' header.
 - Ability to extract emails's attachments and append a safeguard extension so you could manipulate/transport the attachment in a safely manner (attachment.pdf.quarantine)
-- Ability to disantangle all the Proofpoint appends and recover a URL that can analyzed by OSINTs and/or other means. However it also attach a safegaurd (Ex. hxxp://potentiallymaliciousurl.com) 
+- Ability to disentangle all the Proofpoint appends and recover a URL that can analyzed by OSINTs and/or other means. However it also attach a safeguard (Ex. hxxp://potentiallymaliciousurl.com) 
 - Create a report per email containing the emails header, email's sender,  all the IPs on the email and also the URLs. 
 - Ability to check every IP and every URL found on the email against VirusTotal (other OSINT engines can be added). When you check multiple emails at once, this feature will create a report of which email is worth it to look first based on the number of alerts it generated.
 
